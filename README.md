@@ -6,6 +6,18 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
+If you are running the project in a VM, you need to serve it with `ng serve --watch --host (VM ip here) --live-reload true`
+
+Also, if you are using Homestead to develop, you have to use to use live reload: 
+
+```
+folders:
+    - map: ~/workspace
+      to: /home/vagrant/Code
+      type: rsync
+```
+
+
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
